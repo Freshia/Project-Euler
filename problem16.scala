@@ -2,7 +2,7 @@ import scala.math._
 import collection.immutable.IndexedSeq
 object problem16{
     def main(Args: Array[String]){
-        val power:Int = pow(2,1000).toInt;
+        val power = pow(2,1000);
         var powerString= power.toString;
         println(powerString)
         var sum:Int = 0;
